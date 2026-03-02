@@ -11,7 +11,7 @@ Each tool lives in its own folder inside `Tools/` and includes a dedicated READM
 **Option A — Run directly from PowerShell (no download needed):**
 
 ```powershell
-irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Tools/main/Tools/<ToolName>/<ToolName>.ps1" | iex
+irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Utilitys/main/Tools/<ToolName>/<ToolName>.ps1" | iex
 ```
 
 **Option B — Download and run the `.exe`:**
@@ -21,7 +21,7 @@ Go to the tool's folder, download the `.exe` and double click it. No PowerShell 
 **Option C — Clone the repo:**
 
 ```powershell
-git clone https://github.com/LucaValentini25/Windows-Tools.git
+git clone https://github.com/LucaValentini25/Windows-Utilitys.git
 ```
 
 ---
@@ -32,12 +32,12 @@ git clone https://github.com/LucaValentini25/Windows-Tools.git
 
 Automatically sets up a self-cleaning temporary folder on your system. On every Windows startup, the folder empties itself silently in the background.
 
-- 📁 Path: `Tools/SetupTempCleaner`
-- 📖 [Read the Documentation](Tools/SetupTempCleaner/README.md)
+- 📁 Path: `Tools/Carpeta Temporal`
+- 📖 [Read the Documentation](Tools/Carpeta%20Temporal/README.md)
 - ▶️ Run via PowerShell:
 
 ```powershell
-irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Tools/main/Tools/SetupTempCleaner/SetupTempCleaner.ps1" | iex
+irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Utilitys/main/Tools/Carpeta%20Temporal/SetupTempCleaner.ps1" | iex
 ```
 
 ---

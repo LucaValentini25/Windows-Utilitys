@@ -31,7 +31,7 @@ A shortcut to `ClearTemp.ps1` is also placed in your Windows Startup folder so i
 ### Option A — Run directly from PowerShell (no download needed)
 
 ```powershell
-irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Tools/main/Tools/SetupTempCleaner/SetupTempCleaner.ps1" | iex
+irm "https://raw.githubusercontent.com/LucaValentini25/Windows-Utilitys/main/Tools/Temporary%20Folder/SetupTempCleaner.ps1" | iex
 ```
 
 ### Option B — Download and run the `.exe`
